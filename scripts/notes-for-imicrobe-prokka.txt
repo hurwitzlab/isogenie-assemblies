@@ -1,0 +1,17 @@
+Went to https://www.imicrobe.us/
+and used Tools > Apps > imicrobe-prokka-0.0.1u1
+with one contig.fasta at a time
+and the arguments:
+--notbl2asn --compliant --metagenome
+
+
+for "/bbolduc-iplant-2015/Collaborations/Crossen/Assemblies/SPAdes_Day50_SPH_8-18-contigs.fasta"
+result "/iplant/home/scottdaniel/archive/jobs/job-4301099822015704600-242ac113-0001-007"
+
+for "/bbolduc-iplant-2015/Collaborations/Crossen/Assemblies/SPAdes_Day0_SPH_8-18-contigs.fasta"
+result "/iplant/home/scottdaniel/archive/jobs/job-6307150196958424600-242ac113-0001-007"
+
+for SPAdes_Day50_Erio_8-18-contigs.fasta
+result "/iplant/home/kbcrossen/Rachel_incubations/Day50Erio_Prokka_0.0.1_analysis"
+
+had to split Day0_Erio because it was too big

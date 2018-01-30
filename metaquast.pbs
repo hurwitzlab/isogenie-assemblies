@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+
+#PBS -W group_list=bhurwitz
+#PBS -q standard
+#PBS -j oe
+#PBS -N metaquast
+#PBS -l select=1:ncpus=12:mem=68gb
+#PBS -l walltime=24:00:00
+#PBS -l cput=96:00:00
+#PBS -M scottdaniel@email.arizona.edu
+#PBS -m bea
+
+echo Started at $(date)
+
+PROG=`basename $0 ".sh"`
+
+echo Name of script is "$PROG"
+
+if [ -n "$PBS_O_WORKDIR" ]; then
+    cd $PBS_O_WORKDIR
+fi
+
+set -u
+
+metaquast.py \
+    -t 3 \
+    SPAdes_Day0_Erio_8-18-contigs.fasta \
+    SPAdes_Day0_SPH_8-18-contigs.fasta \
+    SPAdes_Day50_Erio_8-18-contigs.fasta \
+    SPAdes_Day50_SPH_8-18-contigs.fasta
+
+echo Done at $(date)

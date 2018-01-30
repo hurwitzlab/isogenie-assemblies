@@ -107,3 +107,5 @@ QUAST/
 *.o*
 prokka_annotations/
 quast_results/
+*.fa
+split_contigs/

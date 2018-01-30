@@ -15,3 +15,8 @@ for SPAdes_Day50_Erio_8-18-contigs.fasta
 result "/iplant/home/kbcrossen/Rachel_incubations/Day50Erio_Prokka_0.0.1_analysis"
 
 had to split Day0_Erio because it was too big
+then
+icd isogenie
+iput SPAdes_Day0_Erio_8-18-contigs0.fa
+iput SPAdes_Day0_Erio_8-18-contigs1.fa
+then ran imicrobe-prokka on each (it errored when i tried to do together)

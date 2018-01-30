@@ -14,7 +14,7 @@ echo Started `date`
 
 source activate py36
 
-cd $PRJ_DIR
+cd $SPLIT_FA_DIR
 
 #Example:
 #faSplit sequence estAll.fa 100 est
@@ -22,6 +22,6 @@ cd $PRJ_DIR
 #(numbered est001.fa est002.fa, ... est100.fa
 #Files will only be broken at fa record boundaries
 
-faSplit sequence SPAdes_Day0_Erio_8-18-contigs.fasta 2 SPAdes_Day0_Erio_8-18-contigs
+faSplit sequence $PRJ_DIR/SPAdes_Day0_Erio_8-18-contigs.fasta 2 SPAdes_Day0_Erio_8-18-contigs
 
 echo Finished `date`

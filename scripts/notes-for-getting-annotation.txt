@@ -17,3 +17,7 @@ mv PROKKA_01292018/ SPAdes_Day0_SPH_8-18-contigs
 SPAdes_Day50_SPH_8-18-contigs.fa
 iget -r /iplant/home/scottdaniel/archive/jobs/job-4301099822015704600-242ac113-0001-007/PROKKA_01292018
 mv PROKKA_01292018/ SPAdes_Day50_SPH_8-18-contigs
+
+for i in $(ls --color=no SPAdes_Day0_Erio_8-18-contigs0); do cat SPAdes_Day0_Erio_8-18-contigs0/$i SPAdes_Day0_Erio_8-18-contigs1/$i > Day0_Erio_concat/$i; done
+
+then R-interactive

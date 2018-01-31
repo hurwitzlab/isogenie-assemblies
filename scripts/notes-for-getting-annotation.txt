@@ -1,0 +1,19 @@
+SPAdes_Day0_Erio_8-18-contigs1.fa
+iget -r /iplant/home/scottdaniel/archive/jobs/job-5925703706026569240-242ac113-0001-007/PROKKA_01302018
+mv PROKKA_01302018 SPAdes_Day0_Erio_8-18-contigs1
+
+SPAdes_Day0_Erio_8-18-contigs0.fa
+iget -r /iplant/home/scottdaniel/archive/jobs/job-9093327986172489240-242ac113-0001-007/PROKKA_01302018
+mv PROKKA_01302018/ SPAdes_Day0_Erio_8-18-contigs0
+
+SPAdes_Day50_Erio_8-18-contigs.fa
+iget -r /iplant/home/kbcrossen/Rachel_incubations/Day50Erio_Prokka_0.0.1_analysis/PROKKA_09132017
+mv PROKKA_09132017/ SPAdes_Day50_Erio_8-18-contigs
+
+SPAdes_Day0_SPH_8-18-contigs.fa
+iget -r /iplant/home/scottdaniel/archive/jobs/job-6307150196958424600-242ac113-0001-007/PROKKA_01292018
+mv PROKKA_01292018/ SPAdes_Day0_SPH_8-18-contigs
+
+SPAdes_Day50_SPH_8-18-contigs.fa
+iget -r /iplant/home/scottdaniel/archive/jobs/job-4301099822015704600-242ac113-0001-007/PROKKA_01292018
+mv PROKKA_01292018/ SPAdes_Day50_SPH_8-18-contigs

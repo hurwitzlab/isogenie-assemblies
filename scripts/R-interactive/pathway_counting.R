@@ -33,3 +33,5 @@ length(which(ECcounts$sample=="Day0_SPH"))
 #1978
 length(which(ECcounts$sample=="Day50_SPH"))
 #1977
+
+write.csv(ECcounts, "SPH_vs_Erio_EC_counts_from_assemblies.csv")

@@ -110,3 +110,7 @@ quast_results/
 *.fa
 split_contigs/
 .Rproj.user
+.DS_Store
+.Rhistory
+mash/
+scripts/.DS_Store
